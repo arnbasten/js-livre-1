@@ -1,0 +1,56 @@
+h1{
+color: #c31365;
+font-size: 1rem;
+
+
+}
+body{
+font-family: cursive;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.btn-red{
+    background-color: red;
+    height: 50px;
+    min-width: auto;
+    border-radius: 50%;
+    position: relative;
+    animation-name: rouge;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+
+/*@keyframes rouge {
+    0% {left: 0px; top: 0px;}
+    25% {left: 200px; top: 0px;}
+    50% {left: 200px; top: 200px;}
+    75% {left: 0px; top: 200px;}
+    100% {left: 0px; top: 0px;}
+}*/
+
+.btn-blue{
+    background-color: blue;
+    height: 50px;
+    min-width: auto;
+    border-radius: 50%;
+    position: relative;
+    animation-name: blue;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/*@keyframes blue {
+    0% {left: 0px; top: 0px;}
+    25% {left: 200px; top: 0px;}
+    50% {left: 200px; top: 200px;}
+    75% {left: 0px; top: 200px;}
+    100% {left: 0px; top: 0px;}
+}*/

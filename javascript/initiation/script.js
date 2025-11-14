@@ -23,9 +23,19 @@ btnBlue.addEventListener('click', () => {
     add();
 });
 
+// Ajout du compteur de clics pour le client
 function add() {
     compteur = compteur + 1;
     console.log(compteur, 'incrémentation de clics par une fonction');
     titre.innerText = compteur;
 };
 
+// Suppression des boutons du DOM au timeout (fin du jeu)
+/*setTimeout(function () {
+    //console.log("fin de chrono")
+    btnRed.remove();
+    btnBlue.remove();
+}, 10000);*/
+
+
+// TODO : modifier remove() pour garder les  boutons mais les désactiver et pouvoir recomencer une partie

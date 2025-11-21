@@ -28,6 +28,7 @@ font-family: cursive;
     align-items: center;
     padding: 3rem;
     opacity: 1;
+    transition: 0.5s;;
 }
 
 .cookies-btn{

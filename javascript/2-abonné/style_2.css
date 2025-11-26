@@ -1,0 +1,28 @@
+.central-bloc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.iframe-bloc{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    /*TODO voir pourquoi gap n'est pas pris en compte*/
+}
+
+.subscriber-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: aqua;
+    color: red;
+    font-weight: bold;
+    text-transform: capitalize;
+}

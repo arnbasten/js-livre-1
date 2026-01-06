@@ -13,17 +13,19 @@ console.log(btnButton);
 
 // je soumets l'icone à une action au clic
 
-icon.addEventListener('click', function(e) {
-    e.stopPropagation();
-    console.log('icon cliquée');
-    icon.classList.toggle('fa-smile-wink');
-    icon.classList.toggle("happy");
-});
+function render(isSubscribed) {
+    label.innerText = isSubscribed ? "Vous êtes abonné" : "Abonnez-vous" ;
 
-btnButton.addEventListener('click', function(){
-    console.log('bouton cliqué');
-    if (label.innerText === "Abonnez-vous"){
-        label.innerText = "Vous êtes abonné";}
+    icon.classList.toggle('fa-smile-wink', isSubscribed);
+    icon.classList.toggle("happy", isSubscribed);
 
-    else {(label.innerText = "Abonnez-vous")};
+};
+
+function toggleSubscribe() {
+    const isSubscibed = btnButton.classList.toggle('subscribed');
+    render(isSubscibed);
+}
+
+btnButton.addEventListener('click', () => {
+    toggleSubscribe();
 });

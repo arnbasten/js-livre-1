@@ -1,0 +1,30 @@
+:root {
+    --main-color: #777;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  }
+
+  .accordion h1 {
+    background-color: bisque;
+    text-align: center;
+}
+.questions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.answers {
+    color: var(--main-color);
+    background-color: #eee;
+    padding: 3rem;
+    display: none;
+}
+
+.visible {
+    display: block;
+}

@@ -1,0 +1,43 @@
+/*Fiche produit*/
+.product-container {
+    width: 80%;
+    background-color: white;
+    color: grey;
+    display: flex;
+}
+
+/*img du produit*/
+.product-img {
+    flex: 1;
+}
+
+/*infos produit*/
+.product-infos {
+    flex: 1;
+    padding: 4rem;
+}
+
+/*gérer dimentions  de full-img*/
+.full-img-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#full {
+    max-width: 100%;
+    height: auto;
+}
+
+/*gérer dimentions et postionnement des thumbnail-img*/
+.thumbnail-img-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.small {
+    flex: 1;
+    width: 30%;
+    display: block;
+}

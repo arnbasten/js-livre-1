@@ -58,11 +58,16 @@
 
 .btn-add {
     background-color: hsl(0, 16%, 72%);
-    color: white;
+    color: green;
     padding: 2rem;
     outline: none;
     border: none;
     margin: 2rem 0;
+}
+
+.btn-add h3 {
+    color: white;
+    padding: 0.5rem 0;
 }
 
 @media screen and (max-width: 700px) {

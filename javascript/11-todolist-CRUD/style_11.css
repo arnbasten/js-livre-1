@@ -53,3 +53,8 @@ todo-list input{
     font-size: 2rem;
     background-color: rgb(128, 205, 128);
 }
+
+.done{
+    text-decoration: line-through;
+    color: rgb(128, 205, 128);
+}

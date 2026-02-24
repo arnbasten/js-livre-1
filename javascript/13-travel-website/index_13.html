@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../modele/reset.css">
+    <link rel="stylesheet" href="./style_13.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>site de voyage</title>
+    <script src="./script_13.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!--image de background géré dans css-->
+        <h1>Faite-vous plaisir, profitez de la diversité du monde</h1>
+        <form id="form">
+            <div class="field">
+                <select name="country" id="country">
+                    <option value="hawai">Hawai</option>
+                    <option value="madive">Les Maldives</option>
+                    <option value="bahamas">Les Bahamas</option>
+                    <option value="borabora">Bora-bora</option>
+                    <option value="tahiti">Tahiti</option>
+                </select>
+            </div>
+            <!--dates de départ-->
+            <div class="field">
+                <input type="date" name="start" id="start"
+                value="2026-08-31"
+                min="2026-07-01">
+            </div>
+            <!--dates de retour-->
+            <div class="field">
+                <input type="date" name="end" id="end"
+                value="2026-08-31"
+                min="2026-07-01">
+            </div>
+            <button type="submit">
+                <i class="fas fa-plane"></i>
+            </button>
+        </form>
+        <!--résulta de la recherche-->
+        <div class="result-list">
+
+        </div>
+    </div>
+    
+</body>
+</html>
